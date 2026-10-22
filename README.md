@@ -24,7 +24,7 @@ There are 7 computer lessons, 6 helper lessons, 6 webpage lessons, and 6 Make Yo
 
 ## Run it on your computer
 
-You need Node.js 20 or newer.
+You need Node.js 22.
 
 ```bash
 npm install
@@ -52,13 +52,13 @@ Import [vercel.com/new](https://vercel.com/new) and choose this GitHub repositor
 | --- | --- |
 | Framework Preset | Next.js |
 | Root Directory | `./` |
-| Node.js Version | 20.x |
+| Node.js Version | 22.x |
 | Install Command | `npm install` |
 | Build Command | `npm run build` |
 | Output Directory | leave empty |
 | Environment Variables | none |
 
-Do not set an output folder such as `public` or `out`. Next.js on Vercel serves the build itself. `package.json` already asks for Node `20.x`, which matches Next.js 16.
+Do not set an output folder such as `public` or `out`. Next.js on Vercel serves the build itself. `package.json` already asks for Node `22.x`, which matches Next.js 16.
 
 Deploy. Vercel gives you HTTPS. On a phone, use the browser menu and choose **Add to Home Screen**. On a computer, use the install icon in the address bar if the browser offers it.
 
